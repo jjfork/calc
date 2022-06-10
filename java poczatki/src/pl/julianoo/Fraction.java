@@ -84,7 +84,7 @@ public class Fraction {
     }
 
     /**
-     * shit to shorten fractions
+     * to shorten fractions
      */
     public static int gcd(int a, int b) {
         if (a < 0) a = -a;
