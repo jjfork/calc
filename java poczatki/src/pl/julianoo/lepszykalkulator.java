@@ -37,7 +37,7 @@ public class lepszykalkulator {
             } else if (operation.equals("/")) {
                 result = x.divide(y);
             } else {
-                System.out.println("wtf");
+                System.out.println("why");
                 result = new Fraction(0);
             }
             System.out.println("Result: " + result.getFractionAsDecimal());
