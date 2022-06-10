@@ -25,7 +25,7 @@ public class liczonko {
                 case "/" -> result = x / y;
                 case "%" -> result = x % y;
                 default -> {
-                    System.out.println("wtf are you doing");
+                    System.out.println("stop doing that");
                     result = 0;
                 }
             }
