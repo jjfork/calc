@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: pl.julianoo.CircleTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.656 s <<< FAILURE! - in pl.julianoo.CircleTests
+pl.julianoo.CircleTests.testArea  Time elapsed: 0.627 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy int
+Mockito cannot mock/spy because :
+ - primitive type
+	at org.mockito.junit.jupiter.MockitoExtension.beforeEach(MockitoExtension.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because the return value of "org.junit.jupiter.api.extension.ExtensionContext$Store.remove(Object, java.lang.Class)" is null
+		at org.mockito.junit.jupiter.MockitoExtension.afterEach(MockitoExtension.java:190)
+		... 2 more
+
+pl.julianoo.CircleTests.testCircumference  Time elapsed: 0.003 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy int
+Mockito cannot mock/spy because :
+ - primitive type
+	at org.mockito.junit.jupiter.MockitoExtension.beforeEach(MockitoExtension.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because the return value of "org.junit.jupiter.api.extension.ExtensionContext$Store.remove(Object, java.lang.Class)" is null
+		at org.mockito.junit.jupiter.MockitoExtension.afterEach(MockitoExtension.java:190)
+		... 2 more
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pl.julianoo.CircleTests" time="0.656" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089\target\test-classes;C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089\target\classes;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="Test" value="CircleTests.java"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\j_4k\AppData\Local\Temp\surefire8231570320987038524\surefirebooter-20240119011533220_3.jar C:\Users\j_4k\AppData\Local\Temp\surefire8231570320987038524 2024-01-19T01-15-33_123-jvmRun1 surefire-20240119011533220_1tmp surefire_0-20240119011533220_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089\target\test-classes;C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089\target\classes;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\j_4k\IdeaProjects\codeai\tmp\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\j_4k"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\j_4k\AppData\Local\Temp\surefire8231570320987038524\surefirebooter-20240119011533220_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="j_4k"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\j_4k\IdeaProjects\codeai\tmp"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\j_4k\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\j_4k\AppData\Local\Temp\codeai-test-87561328392016089"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\dotnet\;C:\Users\j_4k\AppData\Local\Programs\Python\Python312\;C:\Users\j_4k\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\j_4k\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\j_4k\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.5\bin;;C:\Program Files\JetBrains\PyCharm 2023.2.5\bin;;C:\Users\j_4k\.dotnet\tools;C:\Users\j_4k\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\j_4k\AppData\Local\Programs\Python\Python312\;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\\Users\\j_4k\\IdeaProjects\\codeai\\tmp"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testArea" classname="pl.julianoo.CircleTests" time="0.627">
+    <error message="&#10;Cannot mock/spy int&#10;Mockito cannot mock/spy because :&#10; - primitive type" type="org.mockito.exceptions.base.MockitoException"><![CDATA[org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy int
+Mockito cannot mock/spy because :
+ - primitive type
+	at org.mockito.junit.jupiter.MockitoExtension.beforeEach(MockitoExtension.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because the return value of "org.junit.jupiter.api.extension.ExtensionContext$Store.remove(Object, java.lang.Class)" is null
+		at org.mockito.junit.jupiter.MockitoExtension.afterEach(MockitoExtension.java:190)
+		... 2 more
+]]></error>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\j_4k\IdeaProjects\codeai\tmp\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="testCircumference" classname="pl.julianoo.CircleTests" time="0.003">
+    <error message="&#10;Cannot mock/spy int&#10;Mockito cannot mock/spy because :&#10; - primitive type" type="org.mockito.exceptions.base.MockitoException"><![CDATA[org.mockito.exceptions.base.MockitoException: 
+
+Cannot mock/spy int
+Mockito cannot mock/spy because :
+ - primitive type
+	at org.mockito.junit.jupiter.MockitoExtension.beforeEach(MockitoExtension.java:159)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because the return value of "org.junit.jupiter.api.extension.ExtensionContext$Store.remove(Object, java.lang.Class)" is null
+		at org.mockito.junit.jupiter.MockitoExtension.afterEach(MockitoExtension.java:190)
+		... 2 more
+]]></error>
+  </testcase>
+</testsuite>
